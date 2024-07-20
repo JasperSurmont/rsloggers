@@ -1,0 +1,11 @@
+basePath: /api
+info:
+  contact:
+    email: jasper@surmont.dev
+    name: Jasper Surmont
+  description: The public RS Loggers API that lets players track collection logs in
+    RS3
+  title: RS Loggers API
+  version: "0.1"
+paths: {}
+swagger: "2.0"

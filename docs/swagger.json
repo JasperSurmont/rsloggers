@@ -1,0 +1,14 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "The public RS Loggers API that lets players track collection logs in RS3",
+        "title": "RS Loggers API",
+        "contact": {
+            "name": "Jasper Surmont",
+            "email": "jasper@surmont.dev"
+        },
+        "version": "0.1"
+    },
+    "basePath": "/api",
+    "paths": {}
+}
