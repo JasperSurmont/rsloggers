@@ -2,11 +2,11 @@ services:
   postgres:
     image: postgres:16
     container_name: postgres_db
-    user: postgres
+    user: ${POSTGRES_USER}
     environment:
-      POSTGRES_DB: example_db
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: example_password
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PWD}
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
